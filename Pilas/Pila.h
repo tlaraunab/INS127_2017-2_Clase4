@@ -3,7 +3,7 @@
 // La pila estara compuesta de Nodos
 typedef struct Nodo{
     int valor;
-    Nodo* next;
+    struct Nodo* next;
 } Nodo;
 
 // La Pila misma
